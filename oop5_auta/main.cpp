@@ -31,5 +31,6 @@ int main()
 	for (int i=0; i<garaz.size(); i++)
 	{
 		garaz.at(i)->popis();
+		delete garaz.at(i);
 	}	
 }
